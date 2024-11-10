@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_album_art"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_music_note" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="9dp">
+
+            <TextView
+                android:id="@+id/tv_music_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music_name"
+                android:textSize="16sp"
+                android:textColor="@color/dark_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_artist_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_text"
+                android:text="@string/artist" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

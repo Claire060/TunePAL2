@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/music_img"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="23dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_accent"
+            android:textColor="@color/dark_text"
+            android:textColorHint="@color/dark_text"
+            android:autofillHints=""
+            android:hint="@string/email"
+            android:layout_marginBottom="23dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_accent"
+            android:textColor="@color/dark_text"
+            android:textColorHint="@color/dark_text"
+            android:autofillHints=""
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="23dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_accent"
+            android:text="@string/login"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_accent"
+            android:text="@string/register"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textViewForgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:minHeight="48dp"
+            android:text="@string/forgot_password"
+            android:textColor="@color/dark_primary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

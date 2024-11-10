@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_primary">#121212</color> <!-- Dark background -->
+    <color name="dark_primary_variant">#1F1F1F</color> <!-- Slightly lighter background -->
+    <color name="dark_accent">#BB86FC</color> <!-- Accent color for icons, buttons -->
+    <color name="dark_text">#FFFFFF</color> <!-- Light text color for contrast -->
+    <color name="dark_gradient_start">#CF75F6</color> <!-- Gradient start -->
+    <color name="dark_gradient_center">#4A31A2</color> <!-- Gradient center -->
+    <color name="dark_gradient_end">#232A50</color> <!-- Gradient end -->
+</resources>

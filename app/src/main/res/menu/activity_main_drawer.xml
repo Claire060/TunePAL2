@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/account_circle"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_liked_songs"
+            android:icon="@drawable/ic_favorite_border"
+            android:title="@string/liked_songs" />
+        <item
+            android:id="@+id/nav_playlist"
+            android:icon="@drawable/ic_playlist"
+            android:title="@string/your_playlist" />
+    </group>
+
+</menu>
